@@ -19,7 +19,12 @@ def example_tree():
     return tree
 
 bst = example_tree()
-bst.levelorder_traversal()
+#bst.levelorder_traversal()
+
+print("\n")
+print("Max: ", bst.max())
+print("Min: ", bst.min())
+
 
   
 
